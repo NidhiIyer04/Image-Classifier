@@ -1,0 +1,9 @@
+{
+    'arch': 'resnet34',          # Architecture name or identifier
+    'state_dict': model.state_dict(),  # State dictionary of the trained model
+    'class_to_idx': model.class_to_idx,  # Mapping from class labels to indices
+    'idx_to_class': model.idx_to_class,  # Mapping from indices to class labels
+    'optimizer_state': optimizer.state_dict(),  # State of the optimizer
+    'epochs': 10  # Number of training epochs
+    # Add any other relevant information you want to save
+}
