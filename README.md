@@ -1,6 +1,6 @@
 ### Flower Classification Project
 
-This project is being done as a part of the AI Programming with Python Nanodegree by Udacity. Attached below are the project details with reference to the rubric provided. This is an ongoing project.
+This project was done as a part of the AI Programming with Python Nanodegree by Udacity. Attached below are the project details with reference to the rubric provided. 
 
 ### Project Overview
 
