@@ -35,18 +35,18 @@ try:
     from torchmetrics.classification import MulticlassAccuracy, MulticlassF1Score
 except:
     print("[INFO] Installing torchinfo for network architecture explanation.")
-    !pip install torchinfo
+#    !pip install torchinfo
     from torchinfo import summary
 try:
     from tqdm.autonotebook import tqdm
     from torchmetrics.classification import MulticlassAccuracy, MulticlassF1Score
 except ImportError:
     print("[INFO] Installing required libraries.")
-    !pip install tqdm torchmetrics
+#    !pip install tqdm torchmetrics
     from tqdm.autonotebook import tqdm
     from torchmetrics.classification import MulticlassAccuracy, MulticlassF1Score
 
-!pip install torchmetrics
+#!pip install torchmetrics
 from typing import Tuple
 from torchmetrics.classification import MulticlassAccuracy, MulticlassF1Score
 from typing import Callable, Any
@@ -639,7 +639,7 @@ def predict_and_plot_topk(model: nn.Module,
     plt.tight_layout()
     plt.show()
 #Ex
-!wget https://upload.wikimedia.org/wikipedia/commons/f/fd/Pink_flower.jpg -O image.jpg
+#!wget https://upload.wikimedia.org/wikipedia/commons/f/fd/Pink_flower.jpg -O image.jpg
 predict_and_plot_topk(loaded_model, resnet_34_default_transforms, idx_to_class, "image.jpg", device, class_to_name, topk=5)
 
-!jupyter nbconvert --to html "/content/Final_image_classifier_project (2).ipynb"
+#!jupyter nbconvert --to html "/content/Final_image_classifier_project (2).ipynb"
